@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas Viagens</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://placehold.co/32x32/orange/white?text=✈️" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Buenas Viagens!</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#passeios">Passeios</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>EXPLORE O MUNDO!</h1>
+            
+            <div class="search-form-container">
+                <div class="search-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="destino">Para onde vamos?</label>
+                            <input type="text" id="destino" placeholder="Digite o destino">
+                        </div>
+                        <div class="form-group">
+                            <label for="quando">Quando?</label>
+                            <input type="date" id="quando">
+                        </div>
+                        <div class="form-group">
+                            <label for="retorno">Retorno</label>
+                            <input type="date" id="retorno">
+                        </div>
+                    </div>
+                    <button class="btn search-btn">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Próximos Passeios Section -->
+    <section id="passeios" class="section passeios-section">
+        <div class="container">
+            <div class="passeios-grid">
+                <div class="passeios-content">
+                    <h2 class="passeios-title">Próximos passeios e destinos</h2>
+                    <p>Eligendi, unde neque libero, ab officia laboriosam alias consequuntur laborum eveniet ipsa ex! Rerum architecto dolorum totam quae, magni minima at vero quas voluptas laboriosam autem accusamus nulla eaque officia ipsum distinctio, et inventore facilis vitae consequatur quod omnis voluptates ipsa? Libero inventore dolores necessitatibus omnis voluptate. Sit, officia accusantium consequatur commodi eum deleniti et dolores deserunt accusamus cupiditate animi recusandae assumenda. Similique, eveniet.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="passeios-gallery">
+                    <div class="gallery-item">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F585f91a4-964d-4fc8-b1b6-618237234c2d%2FPPasso01.png/size/w=940?exp=1748292063&sig=zNI1qmfq1OqRXMp2JiCtIkXiXlciK4RXTktIp1svLs8&id=1fd04bb5-bf2b-80e6-99b0-c2e3666c4377&table=block" alt="Itália">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2Fe3e8a5bb-040b-4549-9cb8-7d6a84c4a847%2FPPasso02.png/size/w=950?exp=1748292124&sig=Nde6na0qGYvnyG_-ilUl_7tDzlImFnm1Ia-byWVQ52o&id=1fd04bb5-bf2b-8042-850c-f2d3872c4a08&table=block" alt="Veneza">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F8b27a03b-fd72-43a6-a5a4-b7e688936b49%2FPPasso03.png/size/w=940?exp=1748292169&sig=5GdN97NrI1HufN66GNXYOxcuYBOleNQphrEWQTqLGKw&id=1fd04bb5-bf2b-8035-84fe-f97810171257&table=block" alt="Paris">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F0d7d7fba-c138-469c-9dea-884dfda12917%2FPPasso04.png/size/w=950?exp=1748292194&sig=ckUFHFqGL3I-zoBJqkEIBtBFUhRVnB9Yyk8ZjYb4too&id=1fd04bb5-bf2b-80cb-bdc5-d46117febae5&table=block" alt="Santorini">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinos Section -->
+    <section id="destinos" class="section destinos-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Qual seu próximo destino?</h2>
+            </div>
+            <div class="destinos-grid">
+                <!-- Destino 1 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F65e8cc14-2ce1-4d56-88e9-016ce73e0a49%2FParaOnde01.png/size/w=830?exp=1748292250&sig=3UzYuXTZAgoGsU1E5bz9-CjivE2YDZ7Xq9m5eLTliHc&id=1fd04bb5-bf2b-805d-89cb-e102bffe935c&table=block" alt="Barcelona">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Barcelona, Espanha</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 4.400,00</span>
+                            <span class="current-price">R$ 3.900,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Destino 2 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2Fb902c112-575d-4466-8b58-b9e4f1a3c419%2FParaOnde02.png/size/w=830?exp=1748292287&sig=JQY_ZdgXFlTtncAetcx9khbxcDiaWvAJa7ffHZot5s4&id=1fd04bb5-bf2b-80a6-8ab3-ddfe6049f7da&table=block" alt="Porto">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Porto, Portugal</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 4.200,00</span>
+                            <span class="current-price">R$ 3.700,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Destino 3 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2Fc11caad9-5ca2-4962-82c7-0e29fd43b66a%2FParaOnde03.png/size/w=830?exp=1748292318&sig=wL4MmXgqae83SRvgqDAo7538iWIsgT4l3lmx_Erz3JI&id=1fd04bb5-bf2b-801e-b162-cf09d39730c7&table=block" alt="Milão">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Milão, Itália</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 4.200,00</span>
+                            <span class="current-price">R$ 3.500,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Destino 4 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F162e599b-038b-4e6b-a0ea-13ffd3259a11%2FParaOnde04.png/size/w=830?exp=1748292375&sig=SYKiDDm5tEOM9MwgAQdWJ9KPfluIIDtbrpfU9Vzeah0&id=1fd04bb5-bf2b-8033-a47f-d1101f70b2b3&table=block" alt="Londres">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Londres, Inglaterra</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem uae distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 4.900,00</span>
+                            <span class="current-price">R$ 4.200,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Destino 5 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F02804bb5-bf2b-8133-89e2-0003dd4e1291%2F0f3acdcb-0de6-4d28-bd35-3b570edfede0%2FParaOnde05.png/size/w=830?exp=1748292406&sig=1O-P-y99YF434cSKdQT9g442QY53lQ0T8_vKdIjuc9Q&id=1fd04bb5-bf2b-8090-94b1-c0bec6da6054&table=block" alt="Suiça">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Lauterbrunnen, Suiça</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 4.300,00</span>
+                            <span class="current-price">R$ 3.900,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Destino 6 -->
+                <div class="destino-card">
+                    <div class="destino-img">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Paris">
+                    </div>
+                    <div class="destino-info">
+                        <h3>Paris, França</h3>
+                        <p>Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium ducimus ipsam temporibus.</p>
+                        <div class="price-container">
+                            <span class="original-price">R$ 5.300,00</span>
+                            <span class="current-price">R$ 4.500,00</span>
+                        </div>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações Section -->
+    <section id="avaliacoes" class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Avaliações dos Clientes</h2>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-text">
+                    "Facilis nemo molestias eum eligendi assumenda consequuntur, alias cumque fugit tenetur laudantium in dolores delectus temporibus magni quae est quaerat, deleniti repellat provident veniam reiciendis atque neque! Optio eaque eveniet accusantium nesciunt omnis eum quidem sint odio molestiae dolore est aut laborum laudantium voluptates, rerum, architecto et."
+                </div>
+                <div class="testimonial-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRofQVRD0KFbtQYv__Nn891XSevbA-9mdqlA&s" alt="Marília">
+                </div>
+                <div class="testimonial-author">Marília, Contadora</div>
+                <div class="testimonial-nav">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                    
+        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <div class="footer-logo">Buenas Viagens!</div>
+                    <p>Buenas Viagens & Turismo S.A.</p>
+                    <p>Avenida da Boa Vista, 1234</p>
+                    <p>Porto, Portugal</p>
+                    <p class="copyright">Buenas Viagens & Turismo S.A. © Todos os direitos reservados 2025</p>
+                </div>
+                <div class="footer-partners">
+                    <h3 class="footer-title">NOSSOS PARCEIROS</h3>
+                    <ul class="footer-links">
+                        <li>consectetur adipisicing</li>
+                        <li>Pariatur autem harum</li>
+                        <li>distinctio laudantium ducimus</li>
+                        <li>temporibus vel magnam</li>
+                        <li>commodi sed quaerat</li>
+                        <li>Quas perspiciatis blanditiis</li>
+                        <li>aspernatur</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">ASSINE A NOSSA NEWSLETTER</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Informe seu E-mail">
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div class="social-section">
+                        <h4>SIGA NOSSAS REDES SOCIAIS</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
